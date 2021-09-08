@@ -6,5 +6,5 @@
  */
 
 module.exports = function filenameRegex() {
-  return /([^\\\/]+)$/;
+  return /([^\\\/]{1,260})$/;
 };
